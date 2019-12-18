@@ -12,6 +12,8 @@ namespace projet_Ecole_Algorithme_Compression_Decompression
     {
         static void Main(string[] args)
         {
+            Console.Title = "Huffman Code avec fichier, by bertin.dev and Michel";
+
             Console.WriteLine("S'il vous plait entrer une Chaine de caractère:");
             string input = Console.ReadLine();
             HuffmanTree huffmanTree = new HuffmanTree();
