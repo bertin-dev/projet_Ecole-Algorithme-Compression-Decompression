@@ -9,6 +9,7 @@ namespace projet_Ecole_Algorithme_Compression_Decompression
     {
         static void Main(string[] args)
         {
+            Console.ReadLine();
         }
     }
 }
